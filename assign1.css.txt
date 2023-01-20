@@ -1,0 +1,187 @@
+/*Author: Ibrahim Ahmed, 000880591*/
+/*Created: Jan., 17, 2023. The external css for both pages. index.html and page2.html*/
+
+#body {
+    background-color: #f2f2f2;
+}
+
+/* header section */
+#header {
+    background-color: #ddd;
+    padding: 1em;
+    text-align: center;
+}
+
+#header .header-logo img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 1em;
+}
+
+.header-text h1 {
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 45px;
+}
+
+.header-text p {
+    color: brown;
+    font-size: 1.2em;
+}
+
+.animation-container p {
+    color: lightblue;
+    text-align: right;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.anim-spin {
+    display: block;
+    float: left;
+    font-weight: 600;
+    /* declaring the animation name */
+    animation: spin 3s linear forwards;
+}
+
+/* setting animation delay on each element in the animation */
+.anim-spin:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.anim-spin:nth-child(2) {
+    animation-delay: 2.5s;
+}
+
+.anim-spin:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.anim-spin:nth-child(4) {
+    animation-delay: 3.5s;
+}
+
+.anim-spin:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.anim-spin:nth-child(6) {
+    animation-delay: 4.5s;
+}
+
+.anim-spin:nth-child(7) {
+    animation-delay: 5s;
+}
+
+.anim-spin:nth-child(8) {
+    animation-delay: 5.5s;
+}
+
+.anim-spin:nth-child(9) {
+    animation-delay: 6s;
+}
+
+.anim-spin:nth-child(10) {
+    animation-delay: 6.5s;
+}
+
+.anim-spin:nth-child(11) {
+    animation-delay: 7s;
+}
+
+.anim-spin:nth-child(12) {
+    animation-delay: 7.5s;
+}
+
+.anim-spin:nth-child(13) {
+    animation-delay: 8s;
+}
+
+.anim-spin:nth-child(14) {
+    animation-delay: 8.5s;
+}
+
+.anim-spin:nth-child(15) {
+    animation-delay: 9s;
+}
+
+@keyframes spin {
+/* defining the animation style to rotate and change color */
+    40% {
+        color: #000;
+        transform: rotateY(-360deg);
+    }
+
+    60% {
+        transform: rotateY(0deg);
+    }
+
+    80% {
+        transform: rotateY(-360deg);
+    }
+
+    100% {
+        color: darkblue;
+        transform: rotateY(0deg);
+
+    }
+}
+
+/* end header styling*/
+
+/* navigation styling*/
+nav ul li a {
+    padding: 10px 15px;
+    background: skyblue;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 1em 2em;
+    border-radius: 0.5em;
+    transition: 0.5s ease-out;
+}
+
+nav ul li a:hover {
+    background: rgb(0, 153, 255);
+}
+
+/* end of nav styling*/
+
+/*start of main styling*/
+h2,
+h3 {
+    color: rgb(19, 94, 206);
+}
+
+h4 {
+    color: rgb(0, 153, 255);
+}
+
+main p {
+    color: #222;
+}
+
+main a {
+    text-decoration: none;
+    font-size: 1.125em;
+    color: orangered;
+}
+
+main img {
+    width: 85%;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.col-sm-6,
+.col-sm-9 {
+    background-color: #f8f8f8;
+}
+
+/* end of main styling*/
+footer {
+    padding: 1em;
+    background-color: #ddd;
+    font-size: 0, 8em;
+    color: darkblue;
+    text-align: center;
+}
